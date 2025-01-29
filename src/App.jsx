@@ -28,6 +28,38 @@ function App() {
           <img src={heroImg} alt="" className="" />
         </div>
       </section>
+
+      <section className="my-40 w-7xl mx-auto flex justify-between gap-4">
+        <div
+          className="bg-cover bg-center bg-no-repeat w-[470px] h-[420px] rounded-2xl text-white flex justify-center flex-col space-y-6"
+          style={{ backgroundImage: `url(${webImg})` }}
+        >
+          <h2 className="uppercase font-medium text-4xl">web design</h2>
+          <p className="uppercase font-medium text-sm tracking-widest">
+            view projects
+          </p>
+        </div>
+        <div className="flex flex-col gap-8">
+          <div
+            className="bg-cover bg-center bg-no-repeat w-[470px] h-[197px] rounded-2xl text-white flex justify-center flex-col space-y-6"
+            style={{ backgroundImage: `url(${appImg})` }}
+          >
+            <h2 className="uppercase font-medium text-4xl">app design</h2>
+            <p className="uppercase font-medium text-sm tracking-widest">
+              view projects
+            </p>
+          </div>
+          <div
+            className="bg-cover bg-center bg-no-repeat w-[470px] h-[197px] rounded-2xl text-white flex justify-center flex-col space-y-6"
+            style={{ backgroundImage: `url(${graphicImg})` }}
+          >
+            <h2 className="uppercase font-medium text-4xl">graphic design</h2>
+            <p className="uppercase font-medium text-sm tracking-widest">
+              view projects
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
