@@ -50,30 +50,35 @@ export default function Home() {
         </Link>
 
         <div className="flex flex-col gap-8">
-          <div
-            className="bg-cover bg-center bg-no-repeat w-4/5 md:w-[689px] lg:w-[470px] h-60 md:h-[197px] mx-auto lg:mx-0 rounded-2xl text-white flex justify-center flex-col space-y-6 cursor-pointer relative group"
-            style={{ backgroundImage: `url(${appImg})` }}
-          >
-            <div className="hidden lg:block absolute inset-0 w-[470px] h-[197px] bg-[#e7816b] opacity-0 group-hover:opacity-70 transition-opacity duration-300 rounded-2xl"></div>
+          <Link to="/app-design">
+            <div
+              className="bg-cover bg-center bg-no-repeat w-4/5 md:w-[689px] lg:w-[470px] h-60 md:h-[197px] mx-auto lg:mx-0 rounded-2xl text-white flex justify-center flex-col space-y-6 cursor-pointer relative group"
+              style={{ backgroundImage: `url(${appImg})` }}
+            >
+              <div className="hidden lg:block absolute inset-0 w-[470px] h-[197px] bg-[#e7816b] opacity-0 group-hover:opacity-70 transition-opacity duration-300 rounded-2xl"></div>
 
-            <h2 className="uppercase font-medium text-4xl">app design</h2>
-            <p className="uppercase font-medium text-sm tracking-widest flex items-center gap-2 justify-center">
-              view projects
-              <img src={rightArrow} alt="" />
-            </p>
-          </div>
-          <div
-            className="bg-cover bg-center bg-no-repeat w-4/5 md:w-[689px] lg:w-[470px] h-60 md:h-[197px] mx-auto lg:mx-0 rounded-2xl text-white flex justify-center flex-col space-y-6 cursor-pointer relative group"
-            style={{ backgroundImage: `url(${graphicImg})` }}
-          >
-            <div className="hidden lg:block absolute inset-0 w-[470px] h-[197px] bg-[#e7816b] opacity-0 group-hover:opacity-70 transition-opacity duration-300 rounded-2xl"></div>
+              <h2 className="uppercase font-medium text-4xl">app design</h2>
+              <p className="uppercase font-medium text-sm tracking-widest flex items-center gap-2 justify-center">
+                view projects
+                <img src={rightArrow} alt="" />
+              </p>
+            </div>
+          </Link>
 
-            <h2 className="uppercase font-medium text-4xl">graphic design</h2>
-            <p className="uppercase font-medium text-sm tracking-widest flex items-center gap-2 justify-center">
-              view projects
-              <img src={rightArrow} alt="" />
-            </p>
-          </div>
+          <Link to="/graphic-design">
+            <div
+              className="bg-cover bg-center bg-no-repeat w-4/5 md:w-[689px] lg:w-[470px] h-60 md:h-[197px] mx-auto lg:mx-0 rounded-2xl text-white flex justify-center flex-col space-y-6 cursor-pointer relative group"
+              style={{ backgroundImage: `url(${graphicImg})` }}
+            >
+              <div className="hidden lg:block absolute inset-0 w-[470px] h-[197px] bg-[#e7816b] opacity-0 group-hover:opacity-70 transition-opacity duration-300 rounded-2xl"></div>
+
+              <h2 className="uppercase font-medium text-4xl">graphic design</h2>
+              <p className="uppercase font-medium text-sm tracking-widest flex items-center gap-2 justify-center">
+                view projects
+                <img src={rightArrow} alt="" />
+              </p>
+            </div>
+          </Link>
         </div>
       </section>
 

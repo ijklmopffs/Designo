@@ -32,7 +32,7 @@ export default function Footer() {
               <img src={navlogo} alt="" className="w-48 h-6" />
             </div>
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-0 mt-5 md:mt-0 md:space-x-4 uppercase text-white text-sm">
-              <Link to="/" className="hover:underline">
+              <Link to="/about" className="hover:underline">
                 our company
               </Link>
               <Link to="/" className="hover:underline">

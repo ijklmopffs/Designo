@@ -17,7 +17,7 @@ export default function Navbar() {
         <img src={navlogo} alt="" className="w-48 h-6" />
       </div>
       <div className="hidden md:flex items-center space-x-4 uppercase text-[#333136] text-sm">
-        <Link to="/" className="hover:underline">
+        <Link to="/about" className="hover:underline">
           our company
         </Link>
         <Link to="/" className="hover:underline">

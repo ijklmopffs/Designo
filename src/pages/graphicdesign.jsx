@@ -1,18 +1,15 @@
-import Navbar from "../../components/Navbar";
-import blogr from "../../images/web-design/image-blogr.jpg";
-import builder from "../../images/web-design/image-builder.jpg";
-import camp from "../../images/web-design/image-camp.jpg";
-import express from "../../images/web-design/image-express.jpg";
-import photon from "../../images/web-design/image-photon.jpg";
-import transfer from "../../images/web-design/image-transfer.jpg";
-import appImg from "../../images/home/desktop/image-app-design.jpg";
-import graphicImg from "../../images/home/desktop/image-graphic-design.jpg";
-import rightArrow from "../../svg/icon-right-arrow.svg";
-import Footer from "../../components/Footer";
-import bgPattern2 from "../../svg/bg-pattern-two-circles.svg";
 import { Link } from "react-router";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
+import bgPattern2 from "../../svg/bg-pattern-two-circles.svg";
+import boxedWater from "../../images/graphic-design/image-boxed-water.jpg";
+import change from "../../images/graphic-design/image-change.jpg";
+import science from "../../images/graphic-design/image-science.jpg";
+import appImg from "../../images/home/desktop/image-app-design.jpg";
+import rightArrow from "../../svg/icon-right-arrow.svg";
+import webImg from "../../images/home/desktop/image-web-design-large.jpg";
 
-export default function Webdesign() {
+export default function Graphicdesign() {
   return (
     <>
       <Navbar />
@@ -21,17 +18,17 @@ export default function Webdesign() {
         className="bg-[#e7816b] bg-cover bg-center bg-repeat w-[90%] lg:w-7xl mx-auto h-[252px] md:rounded-2xl text-white flex flex-col items-center justify-center space-y-2"
         style={{ backgroundImage: `url(${bgPattern2})` }}
       >
-        <h1 className="font-medium text-5xl">Web Design</h1>
+        <h1 className="font-medium text-5xl">Graphic Design</h1>
         <p className="lg:w-96">
-          We build websites that serve as powerful marketing tools and bring
-          memorable brand experiences.
+          We deliver eye-catching branding materials that are tailored to meet
+          your business objectives.
         </p>
       </section>
 
       <section className="w-auto lg:w-7xl mx-auto my-20 flex flex-col lg:flex-row flex-wrap gap-4">
         <div className="w-[310px] md:w-[689px] lg:w-[310px] h-auto md:h-[478px] mx-auto lg:mx-0 md:flex items-center lg:block">
           <img
-            src={express}
+            src={change}
             alt=""
             className="rounded-tl-2xl rounded-tr-2xl md:rounded-tr-none lg:rounded-tr-2xl md:w-[339px] lg:w-auto md:rounded-bl-2xl lg:rounded-bl-none"
           />
@@ -40,17 +37,17 @@ export default function Webdesign() {
             md:rounded-br-2xl md:rounded-bl-none lg:rounded-br-2xl lg:rounded-tr-none lg:rounded-bl-2xl md:h-[310px] lg:h-auto md:flex flex-col justify-center lg:block"
           >
             <h2 className="uppercase font-medium text-xl text-[#e7816b] tracking-widest">
-              express
+              tim brown
             </h2>
             <p className="text-[#333136] md:w-80 lg:w-auto">
-              A multi-carrier shipping website for ecommerce businesses
+              A book cover designed for Tim Brown’s new release, ‘Change’
             </p>
           </div>
         </div>
 
         <div className="w-[310px] md:w-[689px] lg:w-[310px] h-auto md:h-[478px] mx-auto lg:mx-0 md:flex items-center lg:block">
           <img
-            src={transfer}
+            src={boxedWater}
             alt=""
             className="rounded-tl-2xl rounded-tr-2xl md:rounded-tr-none lg:rounded-tr-2xl md:w-[339px] lg:w-auto md:rounded-bl-2xl lg:rounded-bl-none"
           />
@@ -59,17 +56,17 @@ export default function Webdesign() {
             md:rounded-br-2xl md:rounded-bl-none lg:rounded-br-2xl lg:rounded-tr-none lg:rounded-bl-2xl md:h-[310px] lg:h-auto md:flex flex-col justify-center lg:block"
           >
             <h2 className="uppercase font-medium text-xl text-[#e7816b] tracking-widest">
-              transfer
+              boxed water
             </h2>
             <p className="text-[#333136] md:w-80 lg:w-auto">
-              Site for low-cost money transfers and sending money within seconds
+              A simple packaging concept made for Boxed Water
             </p>
           </div>
         </div>
 
         <div className="w-[310px] md:w-[689px] lg:w-[310px] h-auto md:h-[478px] mx-auto lg:mx-0 md:flex items-center lg:block">
           <img
-            src={photon}
+            src={science}
             alt=""
             className="rounded-tl-2xl rounded-tr-2xl md:rounded-tr-none lg:rounded-tr-2xl md:w-[339px] lg:w-auto md:rounded-bl-2xl lg:rounded-bl-none"
           />
@@ -78,68 +75,10 @@ export default function Webdesign() {
             md:rounded-br-2xl md:rounded-bl-none lg:rounded-br-2xl lg:rounded-tr-none lg:rounded-bl-2xl md:h-[310px] lg:h-auto md:flex flex-col justify-center lg:block"
           >
             <h2 className="uppercase font-medium text-xl text-[#e7816b] tracking-widest">
-              photon
+              science!
             </h2>
             <p className="text-[#333136] md:w-80 lg:w-auto">
-              A state-of-the-art music player with high-resolution audio and DSP
-              effects
-            </p>
-          </div>
-        </div>
-
-        <div className="w-[310px] md:w-[689px] lg:w-[310px] h-auto md:h-[478px] mx-auto lg:mx-0 md:flex items-center lg:block">
-          <img
-            src={builder}
-            alt=""
-            className="rounded-tl-2xl rounded-tr-2xl md:rounded-tr-none lg:rounded-tr-2xl md:w-[339px] lg:w-auto md:rounded-bl-2xl lg:rounded-bl-none"
-          />
-          <div
-            className="bg-[#fdf3f0] cursor-pointer p-4 rounded-bl-2xl rounded-br-2xl md:rounded-tr-2xl 
-            md:rounded-br-2xl md:rounded-bl-none lg:rounded-br-2xl lg:rounded-tr-none lg:rounded-bl-2xl md:h-[310px] lg:h-auto md:flex flex-col justify-center lg:block"
-          >
-            <h2 className="uppercase font-medium text-xl text-[#e7816b] tracking-widest">
-              builder
-            </h2>
-            <p className="text-[#333136] md:w-80 lg:w-auto">
-              Connects users with local contractors based on their location
-            </p>
-          </div>
-        </div>
-
-        <div className="w-[310px] md:w-[689px] lg:w-[310px] h-auto md:h-[478px] mx-auto lg:mx-0 md:flex items-center lg:block">
-          <img
-            src={blogr}
-            alt=""
-            className="rounded-tl-2xl rounded-tr-2xl md:rounded-tr-none lg:rounded-tr-2xl md:w-[339px] lg:w-auto md:rounded-bl-2xl lg:rounded-bl-none"
-          />
-          <div
-            className="bg-[#fdf3f0] cursor-pointer p-4 rounded-bl-2xl rounded-br-2xl md:rounded-tr-2xl 
-            md:rounded-br-2xl md:rounded-bl-none lg:rounded-br-2xl lg:rounded-tr-none lg:rounded-bl-2xl md:h-[310px] lg:h-auto md:flex flex-col justify-center lg:block"
-          >
-            <h2 className="uppercase font-medium text-xl text-[#e7816b] tracking-widest">
-              blogr
-            </h2>
-            <p className="text-[#333136] md:w-80 lg:w-auto">
-              Blogr is a platform for creating an online blog or publication
-            </p>
-          </div>
-        </div>
-
-        <div className="w-[310px] md:w-[689px] lg:w-[310px] h-auto md:h-[478px] mx-auto lg:mx-0 md:flex items-center lg:block">
-          <img
-            src={camp}
-            alt=""
-            className="rounded-tl-2xl rounded-tr-2xl md:rounded-tr-none lg:rounded-tr-2xl md:w-[339px] lg:w-auto md:rounded-bl-2xl lg:rounded-bl-none"
-          />
-          <div
-            className="bg-[#fdf3f0] cursor-pointer p-4 rounded-bl-2xl rounded-br-2xl md:rounded-tr-2xl 
-            md:rounded-br-2xl md:rounded-bl-none lg:rounded-br-2xl lg:rounded-tr-none lg:rounded-bl-2xl md:h-[310px] lg:h-auto md:flex flex-col justify-center lg:block"
-          >
-            <h2 className="uppercase font-medium text-xl text-[#e7816b] tracking-widest">
-              camp
-            </h2>
-            <p className="text-[#333136] md:w-80 lg:w-auto">
-              Get expert training in coding, data, design, and digital marketing
+              A poster made in collaboration with the Federal Art Project
             </p>
           </div>
         </div>
@@ -147,7 +86,7 @@ export default function Webdesign() {
 
       <section className="w-auto lg:w-7xl mx-auto my-20">
         <div className="flex flex-col lg:flex-row gap-8">
-          <Link to="/app-design">
+          <Link to="/web-design">
             <div
               className="bg-cover bg-center bg-no-repeat w-4/5 md:w-[689px] lg:w-[470px] h-60 md:h-[197px] mx-auto lg:mx-0 rounded-2xl text-white flex justify-center flex-col space-y-6 cursor-pointer relative group"
               style={{ backgroundImage: `url(${appImg})` }}
@@ -165,11 +104,11 @@ export default function Webdesign() {
           <Link to="/graphic-design">
             <div
               className="bg-cover bg-center bg-no-repeat w-4/5 md:w-[689px] lg:w-[470px] h-60 md:h-[197px] mx-auto lg:mx-0 rounded-2xl text-white flex justify-center flex-col space-y-6 cursor-pointer relative group"
-              style={{ backgroundImage: `url(${graphicImg})` }}
+              style={{ backgroundImage: `url(${webImg})` }}
             >
               <div className="hidden lg:block absolute inset-0 w-[470px] h-[197px] bg-[#e7816b] opacity-0 group-hover:opacity-70 transition-opacity duration-300 rounded-2xl"></div>
 
-              <h2 className="uppercase font-medium text-4xl">graphic design</h2>
+              <h2 className="uppercase font-medium text-4xl">web design</h2>
               <p className="uppercase font-medium text-sm tracking-widest flex items-center gap-2 justify-center">
                 view projects
                 <img src={rightArrow} alt="" />
