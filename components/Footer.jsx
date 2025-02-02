@@ -28,14 +28,16 @@ export default function Footer() {
       <footer className="bg-[#1d1c1e] p-16">
         <div className="w-auto lg:w-7xl mx-auto space-y-6 mt-40 md:mt-0">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <div>
-              <img src={navlogo} alt="" className="w-48 h-6" />
-            </div>
+            <Link to="/">
+              <div>
+                <img src={navlogo} alt="" className="w-48 h-6" />
+              </div>
+            </Link>
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-0 mt-5 md:mt-0 md:space-x-4 uppercase text-white text-sm">
               <Link to="/about" className="hover:underline">
                 our company
               </Link>
-              <Link to="/" className="hover:underline">
+              <Link to="/locations" className="hover:underline">
                 locations
               </Link>
               <Link to="/" className="hover:underline">
