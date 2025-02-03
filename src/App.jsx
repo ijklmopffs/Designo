@@ -5,6 +5,7 @@ import Webdesign from "./pages/webdesign";
 import Appdesign from "./pages/appdesign";
 import Graphicdesign from "./pages/graphicdesign";
 import About from "./pages/About";
+import Locations from "./pages/Locations";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/app-design" element={<Appdesign />} />
       <Route path="/graphic-design" element={<Graphicdesign />} />
       <Route path="/about" element={<About />} />
+      <Route path="/locations" element={<Locations />} />
     </Routes>
   );
 }

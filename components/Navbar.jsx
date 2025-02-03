@@ -25,7 +25,7 @@ export default function Navbar() {
         <Link to="/locations" className="hover:underline">
           locations
         </Link>
-        <Link to="/" className="hover:underline">
+        <Link to="/contact" className="hover:underline">
           contact
         </Link>
       </div>
@@ -44,7 +44,7 @@ export default function Navbar() {
           <Link to="/locations" className="hover:underline">
             locations
           </Link>
-          <Link to="/" className="hover:underline">
+          <Link to="/contact" className="hover:underline">
             contact
           </Link>
         </div>

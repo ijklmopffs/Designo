@@ -20,9 +20,11 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <button className="text-black uppercase bg-white cursor-pointer rounded-md px-6 py-2 font-medium text-sm hover:bg-[#ffad9b]">
-            get in touch
-          </button>
+          <Link to="/contact">
+            <button className="text-black uppercase bg-white cursor-pointer rounded-md px-6 py-2 font-medium text-sm hover:bg-[#ffad9b]">
+              get in touch
+            </button>
+          </Link>
         </div>
       </div>
       <footer className="bg-[#1d1c1e] p-16">
@@ -40,7 +42,7 @@ export default function Footer() {
               <Link to="/locations" className="hover:underline">
                 locations
               </Link>
-              <Link to="/" className="hover:underline">
+              <Link to="/contact" className="hover:underline">
                 contact
               </Link>
             </div>

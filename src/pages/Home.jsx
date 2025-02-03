@@ -25,9 +25,11 @@ export default function Home() {
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
           </p>
-          <button className="text-black uppercase bg-white rounded-md px-6 py-2 hover:bg-[#ffad9b] hover:text-white cursor-pointer font-medium text-sm">
-            learn more
-          </button>
+          <Link to="/about">
+            <button className="text-black uppercase bg-white rounded-md px-6 py-2 hover:bg-[#ffad9b] hover:text-white cursor-pointer font-medium text-sm">
+              learn more
+            </button>
+          </Link>
         </div>
         <div className="">
           <img src={heroImg} alt="" className="" />
