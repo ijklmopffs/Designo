@@ -31,7 +31,7 @@ export default function About() {
           <img
             src={heroImg}
             alt=""
-            className="block md:hidden lg:block md:rounded-tr-2xl md:rounded-br-2xl"
+            className="w-auto block md:hidden lg:block md:rounded-tr-2xl md:rounded-br-2xl"
           />
           <img
             src={heroImgTablet}
@@ -46,7 +46,7 @@ export default function About() {
           <img
             src={heroImg2}
             alt=""
-            className="md:rounded-tl-2xl md:rounded-bl-2xl md:hidden lg:block"
+            className="w-auto md:rounded-tl-2xl md:rounded-bl-2xl md:hidden lg:block"
           />
           <img
             src={heroImgTablet2}
@@ -138,7 +138,7 @@ export default function About() {
           <img
             src={heroImg3}
             alt=""
-            className="md:rounded-tr-2xl md:rounded-br-2xl md:hidden lg:block"
+            className="w-auto md:rounded-tr-2xl md:rounded-br-2xl md:hidden lg:block"
           />
           <img
             src={heroImgTablet3}

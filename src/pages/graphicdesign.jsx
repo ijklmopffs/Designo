@@ -15,7 +15,7 @@ export default function Graphicdesign() {
       <Navbar />
 
       <section
-        className="bg-[#e7816b] bg-cover bg-center bg-repeat w-[90%] lg:w-7xl mx-auto h-[252px] md:rounded-2xl text-white flex flex-col items-center justify-center space-y-2"
+        className="bg-[#e7816b] bg-cover bg-center bg-repeat w-auto md:w-[90%] lg:w-7xl mx-auto h-[252px] md:rounded-2xl text-white flex flex-col items-center justify-center space-y-2"
         style={{ backgroundImage: `url(${bgPattern2})` }}
       >
         <h1 className="font-medium text-5xl">Graphic Design</h1>

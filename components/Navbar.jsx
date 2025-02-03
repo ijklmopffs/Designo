@@ -33,8 +33,8 @@ export default function Navbar() {
       <nav
         className={
           nav
-            ? "md:hidden h-[232px] z-10 flex flex-col gap-8 absolute bg-black p-4 w-full top-14 left-0 transition-all ease-in-out duration-700"
-            : "md:hidden h-[232px] z-10 flex flex-col gap-8 absolute bg-black p-4 w-full top-[-100%] left-0 transition-all ease-in-out duration-700"
+            ? "md:hidden h-[252px] z-10 flex flex-col gap-8 absolute bg-black p-4 w-full top-14 left-0 transition-all ease-in-out duration-700"
+            : "md:hidden h-[252px] z-10 flex flex-col gap-8 absolute bg-black p-4 w-full top-[-100%] left-0 transition-all ease-in-out duration-700"
         }
       >
         <div className="flex flex-col space-x-4 uppercase text-white text-2xl text-start items-start gap-16">

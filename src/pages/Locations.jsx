@@ -35,7 +35,7 @@ export default function Locations() {
             <img
               src={canadaMap}
               alt=""
-              className="md:rounded-2xl md:h-[220px] md:hidden lg:block"
+              className="w-auto md:rounded-2xl md:h-[220px] md:hidden lg:block"
             />
             <img
               src={canadaMapTablet}
@@ -50,7 +50,7 @@ export default function Locations() {
             <img
               src={australiaMap}
               alt=""
-              className="md:rounded-2xl md:h-[220px] md:hidden lg:block"
+              className="w-auto md:rounded-2xl md:h-[220px] md:hidden lg:block"
             />
             <img
               src={australiaMapTablet}
@@ -99,7 +99,7 @@ export default function Locations() {
             <img
               src={ukMap}
               alt=""
-              className="md:rounded-2xl md:h-[220px] md:hidden lg:block"
+              className="w-auto md:rounded-2xl md:h-[220px] md:hidden lg:block"
             />
             <img
               src={ukMapTablet}
